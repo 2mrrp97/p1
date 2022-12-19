@@ -24,5 +24,10 @@ public pl(java.util.HashMap<String , Object> m) {
     public java.util.HashMap<String , Object> getM() {
         return this.m;
     }
+    
+    @Override
+    public String toString() {
+        return " [ m = " + m + " ] ";
+    }
 
 }
