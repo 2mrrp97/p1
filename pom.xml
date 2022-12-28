@@ -8,18 +8,14 @@
   <packaging>kjar</packaging>
   <name>p1</name>
   
-<distributionManagement>
+  <distributionManagement>
     <repository>
         <id>central</id>
         <name>a0bwpcvz7yiz6-artifactory-primary-0-releases</name>
-        <url>https://testkie.jfrog.io/artifactory/test</url>
+        <url>https://testkie.jfrog.io/artifactory/libs-release</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0bwpcvz7yiz6-artifactory-primary-0-snapshots</name>
-        <url>https://testkie.jfrog.io/artifactory/test</url>
-    </snapshotRepository>
 </distributionManagement>
+
   <description></description>
   <dependencies>
     <dependency>
