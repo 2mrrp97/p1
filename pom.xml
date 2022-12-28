@@ -4,17 +4,23 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>p1</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>p1</name>
-  <description></description>
-  <distributionManagement>
+  
+<distributionManagement>
     <repository>
-      <id>central</id>
-      <name>a0bwpcvz7yiz6-artifactory-primary-0-releases</name>
-      <url>https://testkie.jfrog.io/artifactory/libs-release</url>
+        <id>central</id>
+        <name>a0bwpcvz7yiz6-artifactory-primary-0-releases</name>
+        <url>https://testkie.jfrog.io/artifactory/test</url>
     </repository>
-  </distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0bwpcvz7yiz6-artifactory-primary-0-snapshots</name>
+        <url>https://testkie.jfrog.io/artifactory/test</url>
+    </snapshotRepository>
+</distributionManagement>
+  <description></description>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
