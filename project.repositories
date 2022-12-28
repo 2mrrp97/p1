@@ -27,8 +27,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>snapshots</id>
-        <url>https://testkie.jfrog.io/artifactory/test</url>
+        <id>central</id>
+        <url>https://testkie.jfrog.io/artifactory/libs-release</url>
         <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
