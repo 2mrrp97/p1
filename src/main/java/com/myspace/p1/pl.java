@@ -10,9 +10,6 @@ public class pl implements java.io.Serializable {
 
 	public java.util.HashMap<String, Object> m;
 
-	@org.kie.api.definition.type.Label(value = "a1")
-	private java.lang.Byte a1;
-
 	public pl() {
 	}
 
@@ -31,18 +28,6 @@ public class pl implements java.io.Serializable {
 	@Override
 	public String toString() {
 		return " [ m = " + m + " ] ";
-	}
-
-	public java.lang.Byte getA1() {
-		return this.a1;
-	}
-
-	public void setA1(java.lang.Byte a1) {
-		this.a1 = a1;
-	}
-
-	public pl(java.lang.Byte a1) {
-		this.a1 = a1;
 	}
 
 }
